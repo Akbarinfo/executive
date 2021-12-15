@@ -6,7 +6,6 @@
 
 body {
   background-color: #fff;
-  /* width: 1440px; */
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -24,12 +23,11 @@ body {
 
 /* HEADER PART  */
 
-.header {
+.site-header {
   width: 1183px;
   height: 52px;
   display: flex;
   margin-top: 41px;
-
 }
 
 .logo {
@@ -44,7 +42,7 @@ body {
   line-height: 20px;
   color: #373737;
   margin-left: 175px;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 .header-nav a {
@@ -60,7 +58,9 @@ body {
 
 .header-ul-list {
   padding-right: 70px;
+  padding-bottom: 10px;
 }
+
 
 hr {
   background: #717CFF;
@@ -75,6 +75,7 @@ hr {
   color: #fff;
   border-bottom: 3px solid #717CFF;
   border-radius: 2px;
+
 }
 
 .header-ul-btn {
@@ -84,6 +85,11 @@ hr {
   border-radius: 10px;
   text-align: center;
   padding-top: 8px;
+}
+
+.header-ul-btn a{
+  text-decoration: none;
+ color: #505050;
 }
 
 
@@ -122,6 +128,9 @@ hr {
 }
 
 .header-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #717CFF;
   width: 262px;
   height: 64px;
@@ -131,15 +140,28 @@ hr {
   line-height: 40px;
   color: #fff;
   margin-top: 42px;
+}
 
+.header-button {
+  display: flex;
+  align-items: center;
+  padding-left: 34px;
+  background-color: #717CFF;
+  font-weight: 600;
+  width: 262px;
+  height: 64px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
 }
 
 .header-btn-span {
-  width: 29px;
-  height: 26px;
-  padding-left: 29px;
   padding-top: 19px;
   padding-bottom: 19px;
+  margin: auto;
+  padding-left: 24px;
 }
 
 .header-images {
@@ -153,7 +175,7 @@ hr {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  width: 113px;
+  width: 150px;
   padding-top: 106px;
 }
 
@@ -277,24 +299,32 @@ hr {
 }
 
 .main-our-ul-href{
-  width: 100px;
+  display: flex;
+  align-items: center;
+  width: 120px;
   height: 20px;
   font-size: 17px;
   line-height: 20px;
   font-weight: 700;
   color: #717CFF;
   padding-top: 50px;
+
 }
 
 .main-our-ul-href a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  width: 92px;
+  width: 150px;
   height: 20px;
   font-size: 14px;
-  line-height: 20px;
-  font-weight: 700;
   color: #717CFF;
   padding-top: 26px;
+}
+
+.main-our-ul-href-span {
+  padding-left: 21px;
+  padding-top: 6px;
 }
 
 .main-our-h3 {

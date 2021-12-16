@@ -533,7 +533,7 @@ hr {
 
 .main-upcoming-title2 {
   display: flex;
-  /* justify-content: space-around; */
+  padding-top: 29px;
 }
 
 .main-upcoming-span {
